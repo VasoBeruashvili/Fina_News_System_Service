@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1bbb2ed4637e42c98d571340fcce7098" Name="Diagram1">
+        <EntityTypeShape EntityType="Fina_News_System_ServiceModel.ModuleTypes" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fina_News_System_ServiceModel.News" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fina_News_System_ServiceModel.NewsCompanyCodes" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fina_News_System_ServiceModel.ShowTypes" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fina_News_System_ServiceModel.Types" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="Fina_News_System_ServiceModel.FK_News_ModuleTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Fina_News_System_ServiceModel.FK_News_ShowTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Fina_News_System_ServiceModel.FK_News_Types" ManuallyRouted="false" />
+        <AssociationConnector Association="Fina_News_System_ServiceModel.FK_NewsCompanyCodes_News" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
